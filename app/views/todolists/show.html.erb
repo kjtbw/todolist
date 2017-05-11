@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Check:</strong>
+  <%= @todolist.check %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @todolist.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @todolist.description %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @todolist.deadline %>
+</p>
+
+<%= link_to 'Edit', edit_todolist_path(@todolist) %> |
+<%= link_to 'Back', todolists_path %>
