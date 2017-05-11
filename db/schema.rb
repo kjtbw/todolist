@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170511025121) do
+ActiveRecord::Schema.define(version: 20170511020531) do
 
   create_table "todolists", force: :cascade do |t|
     t.boolean  "check"
@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20170511025121) do
     t.date     "deadline"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.boolean  "done"
   end
 
 end
